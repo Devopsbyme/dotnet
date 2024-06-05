@@ -22,7 +22,7 @@ jobs:
         dotnet-version: 8.0.x
     - name: Restore dependencies
       run: cd Backend 
-          dotnet restore
+           dotnet restore
     - name: Build
       run: dotnet build --no-restore
     - name: Test
